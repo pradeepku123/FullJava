@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dataStructure.InsertionSort">
+      <class name="com.dataStructure.BubbleSort">
         <methods>
-          <include name="InsertionSortImpliment"/>
+          <include name="bubbleSortImp"/>
         </methods>
-      </class> <!-- com.dataStructure.InsertionSort -->
+      </class> <!-- com.dataStructure.BubbleSort -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

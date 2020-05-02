@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="320" started-at="2020-04-17T13:14:44 IST" finished-at="2020-04-17T13:14:45 IST">
+  <suite name="Default suite" duration-ms="151" started-at="2020-04-18T11:50:43 IST" finished-at="2020-04-18T11:50:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="320" started-at="2020-04-17T13:14:44 IST" finished-at="2020-04-17T13:14:45 IST">
-      <class name="com.dataStructure.InsertionSort">
-        <test-method status="PASS" signature="InsertionSortImpliment()[pri:0, instance:com.dataStructure.InsertionSort@31dc339b]" name="InsertionSortImpliment" duration-ms="34" started-at="2020-04-17T13:14:44 IST" finished-at="2020-04-17T13:14:45 IST">
+    <test name="Default test" duration-ms="151" started-at="2020-04-18T11:50:43 IST" finished-at="2020-04-18T11:50:43 IST">
+      <class name="com.dataStructure.MergeSort">
+        <test-method status="PASS" signature="mergeSort()[pri:0, instance:com.dataStructure.MergeSort@31dc339b]" name="mergeSort" duration-ms="67" started-at="2020-04-18T11:50:43 IST" finished-at="2020-04-18T11:50:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InsertionSortImpliment -->
-      </class> <!-- com.dataStructure.InsertionSort -->
+        </test-method> <!-- mergeSort -->
+      </class> <!-- com.dataStructure.MergeSort -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
