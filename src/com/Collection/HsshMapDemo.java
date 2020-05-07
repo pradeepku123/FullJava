@@ -11,15 +11,18 @@ import java.util.Set;
 public class HsshMapDemo {
 	public static void main(String[] args) {
 		Map< Integer,String> obj=new HashMap<Integer, String>();
-		obj.put(Integer.valueOf(100), "Pradeep");
+		obj.put(Integer.valueOf(103), "Pradeep"); 
 		obj.put(Integer.valueOf(101), "Ranjan");
-		obj.put(Integer.valueOf(102), "Shyam");
-		obj.put(Integer.valueOf(103),null);
+		obj.put(Integer.valueOf(105), "Shyam");
+		obj.put(Integer.valueOf(100),null);
 		obj.put(null,null);
 		obj.put(null,"Hello");
 		System.out.println("Valu of Key And Pair Associated With Now Map Obj:-"+obj);
 		Map<Integer, String> linkedMap=new LinkedHashMap<Integer, String>();
-		linkedMap.putAll(obj);
+		linkedMap.put(Integer.valueOf(103), "Pradeep");
+		linkedMap.put(Integer.valueOf(101), "Ranjan");
+		linkedMap.put(Integer.valueOf(105), "Shyam");
+		linkedMap.put(Integer.valueOf(100),null);
 		System.out.println(linkedMap+"Linked Map");
 		// obj.clear(); // Clear The Map Object Which Clear The All Entry
 		
@@ -54,8 +57,8 @@ public class HsshMapDemo {
 */      
 	
 //        System.out.println(obj.values().size()); //Size Of Map Object
-		
-		//Traverse The HashMAP using For Each lop To All Object
+		//Tracerse The Linked Map
+/*		//Traverse The HashMAP using For Each lop To All Object
         for(Entry entry:obj.entrySet()) {
         	System.out.println(entry);
         	System.out.println(entry.getKey()+" Vakues Are "+entry.getValue());
@@ -71,7 +74,7 @@ public class HsshMapDemo {
         	   System.out.println(recvEntry.getValue());
         	   
          }
-       
+*/       
          
 		System.out.println("Valu of Key And Pair Associated With Now Map Obj:-"+obj);
 		
