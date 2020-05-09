@@ -2,10 +2,10 @@ package com.Collection;
 
 import java.util.Vector;
 
-public class LinkedList {
+public class LinkedListOne {
 
 	public static void main(String[] args) {
-		LinkedList al =new LinkedList();
+		LinkedListOne al =new LinkedListOne();
 		Vector v=new Vector();
 		System.out.println("Size::"+v.size());
 		System.out.println("Capacity::"+v.capacity());
